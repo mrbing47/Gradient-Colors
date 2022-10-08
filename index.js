@@ -1,7 +1,8 @@
 /* TODO: 
-	1. Add percentage compatibility
+	1. Add percentage compatibility, like ["ff00ff", 40]
 	2. Verifation for percentages
-	3. add compatibility for 3 character hex color
+	3. add compatibility for 3 character hex color, like #afa, #000
+	4. Add compatibility for array hex color, like [[200,225,220], [10,255,255]]
 	4. Verification of color hex input
 */
 
