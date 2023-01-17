@@ -222,25 +222,22 @@ const getGradientColor = (colors = []) => {
 	return return_func;
 };
 
-/*
--- Demo code
+// -- Demo code
 
-const rgb = getGradientColor([
-	"#ff0",
-	["#fff", 40],
-	["#fff", 80],
-	["#000", 100],
-]);
-console.log(rgb.colors);
+// const rgb = getGradientColor([
+// 	"#ff0",
+// 	["fff", 40],
+// 	["#fff", 80],
+// 	["000", 100],
+// ]);
+// console.log(rgb.colors);
 
-const chalk = require("chalk");
-const max = 100;
-let txt = "";
-for (let i = 0; i <= max; i++) {
-	txt += chalk.hex(rgb(i, max))("*");
-}
-console.log(txt);
-
-*/
+// const chalk = require("chalk");
+// const max = 100;
+// let txt = "";
+// for (let i = 0; i <= max; i++) {
+// 	txt += chalk.hex(rgb(i, max))("*");
+// }
+// console.log(txt);
 
 module.exports = getGradientColor;
